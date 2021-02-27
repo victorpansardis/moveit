@@ -1,7 +1,6 @@
 import { useState, useEffect, useContext } from 'react';
-import { ChallengesContext } from '../contexts/ChallengesContext';
 import { CountdownContext } from '../contexts/CoundownContext';
-import styles from '../styles/components/countdown.module.css';
+import styles from '../styles/components/Countdown.module.css';
 
 let countdownTimeout : NodeJS.Timeout;
 
